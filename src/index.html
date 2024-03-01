@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Projekt: Sachsen Topographie Quizz</title>
+  </head>
+
+  <body>
+    <script language="javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <form name="form">
+      <h1>Quizz: Topographie Sachsens</h1>
+
+      <p>... Einleitungstext</p>
+
+      <p>Frage 1:</p>
+      <input type="radio" name="answers1" value="" />
+      <input type="radio" name="answers1" value="" />
+      <input type="radio" name="answers1" value="" />
+
+      <input
+        type="button"
+        name="q1_button"
+        value="Auswertung"
+        onclick="check(1, 0)"
+      />
+
+      <p>Frage 2:</p>
+      <input type="radio" name="answers2" value="" />
+      <input type="radio" name="answers2" value="" />
+      <input type="radio" name="answers2" value="" />
+
+      <input
+        type="button"
+        name="q2_button"
+        value="Auswertung"
+        onclick="check(2, 1)"
+      />
+
+      <p>... Weitere Fragen</p>
+
+      <input
+        type="button"
+        name="summary_button"
+        value="Zusammenfassung"
+        onclick="summary()"
+      />
+    </form>
+  </body>
+</html>
