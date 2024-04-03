@@ -164,7 +164,7 @@ function showResult() {
     // if user scored more than 3
     //creating a new span tag and passing the user score number and total question number
     let scoreTag =
-      "<span>Glückwunsch! Du hast <p>" +
+      "<span>Super! Du hast <p>" +
       userScore +
       "</p> von <p>" +
       questions.length +
