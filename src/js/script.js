@@ -50,7 +50,7 @@ restart_quiz.onclick = () => {
   clearInterval(counterLine); //clear counterLine
   startTimer(timeValue); //calling startTimer function
   startTimerLine(widthValue); //calling startTimerLine function
-  timeText.textContent = "Time Left"; //change the text of timeText to Time Left
+  timeText.textContent = "Restzeit"; //change the text of timeText to Restzeit
   next_btn.classList.remove("show"); //hide the next button
 };
 // if quitQuiz button clicked
@@ -71,7 +71,7 @@ next_btn.onclick = () => {
     clearInterval(counterLine); //clear counterLine
     startTimer(timeValue); //calling startTimer function
     startTimerLine(widthValue); //calling startTimerLine function
-    timeText.textContent = "Time Left"; //change the timeText to Time Left
+    timeText.textContent = "Restzeit"; //change the timeText to Restzeit
     next_btn.classList.remove("show"); //hide the next button
   } else {
     clearInterval(counter); //clear counter
@@ -85,7 +85,7 @@ function showQuetions(index) {
   //creating a new span and div tag for question, image, and option and passing the value using array index
   let que_tag =
     "<span class='que-img-container'>" +
-    "<img src='img" +
+    "<img src='../img/img" +
     questions[index].numb +
     ".jpg' alt='Question Image " +
     questions[index].numb +
@@ -164,29 +164,29 @@ function showResult() {
     // if user scored more than 3
     //creating a new span tag and passing the user score number and total question number
     let scoreTag =
-      "<span>and congrats! , You got <p>" +
+      "<span>Glückwunsch! Du hast <p>" +
       userScore +
-      "</p> out of <p>" +
+      "</p> von <p>" +
       questions.length +
-      "</p></span>";
+      "</p> Fragen richtig.</span>";
     scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
   } else if (userScore > 1) {
     // if user scored more than 1
     let scoreTag =
-      "<span>and nice , You got <p>" +
+      "<span>Gut! Du hast <p>" +
       userScore +
-      "</p> out of <p>" +
+      "</p> von <p>" +
       questions.length +
-      "</p></span>";
+      "</p> Fragen richtig.</span>";
     scoreText.innerHTML = scoreTag;
   } else {
     // if user scored less than 1
     let scoreTag =
-      "<span>and sorry , You got only <p>" +
+      "<span>Schade! Du hast <p>" +
       userScore +
-      "</p> out of <p>" +
+      "</p> von <p>" +
       questions.length +
-      "</p></span>";
+      "</p> Fragen richtig.</span>";
     scoreText.innerHTML = scoreTag;
   }
 }
@@ -237,8 +237,8 @@ function queCounter(index) {
   let totalQueCounTag =
     "<span><p>" +
     index +
-    "</p> of <p>" +
+    "</p> von <p>" +
     questions.length +
-    "</p> Questions</span>";
+    "</p> Fragen</span>";
   bottom_ques_counter.innerHTML = totalQueCounTag; //adding new span tag inside bottom_ques_counter
 }
