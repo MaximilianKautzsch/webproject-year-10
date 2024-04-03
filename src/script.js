@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
     nextButton.removeEventListener("click", handleNextButton);
-    nextButton.addEventListener("click", startQuiz); // Add event listener to play again
+    nextButton.addEventListener("click", startQuiz);
   }
 
   function handleNextButton() {
