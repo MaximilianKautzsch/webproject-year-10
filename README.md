@@ -10,7 +10,13 @@ Das Thema dieser Projektarbeit in Informatik (Klassenstufe 10) ist ein Quiz zur 
 
 | Methode   | Parameter                   | Beschreibung                                                                                                                               |
 | --------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| `check()` | `question`, `correct_index` | Prüft durch einen Vergleich des gecheckten Radiobuttons mit `correct_index`, ob die entsprechende Frage der Nummer `question` richtig ist. |
+| `showQuetions()` | `index` | Greift auf die Frage aus dem Array `questions[]` zu und aktualisiert die dazugehörigen HTML-Elemente. |
+| `optionSelected()` | `answer` | Führt spezifische Commands aus, wenn der User eine Antwort auswählt. |
+| `showResult()` | - | Zeigt das Endresultat an, wenn das Quiz vollendet wurde. Spezifische 
+motivierende Aussage je nach Resultat des Users. |
+| `startTimer()` | `time` | Lässt den Countdown laufen (Dauer: 15sec), bis der User eine Antwort ausgewählt hat. |
+| `startTimerLine()` | `time` | Aktualisiert die Progress-Bar des Countdowns. |
+| `queCounter()` | `index` | Aktualisiert die Anzeige des aktuellen Frageindexes. |
 
 ## Algorithmen
 
