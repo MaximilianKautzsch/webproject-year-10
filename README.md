@@ -12,8 +12,7 @@ Das Thema dieser Projektarbeit in Informatik (Klassenstufe 10) ist ein Quiz zur 
 | --------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | `showQuetions()` | `index` | Greift auf die Frage aus dem Array `questions[]` zu und aktualisiert die dazugehörigen HTML-Elemente. |
 | `optionSelected()` | `answer` | Führt spezifische Commands aus, wenn der User eine Antwort auswählt. |
-| `showResult()` | - | Zeigt das Endresultat an, wenn das Quiz vollendet wurde. Spezifische 
-motivierende Aussage je nach Resultat des Users. |
+| `showResult()` | - | Zeigt das Endresultat an, wenn das Quiz vollendet wurde. Spezifische motivierende Aussage je nach Resultat des Users. |
 | `startTimer()` | `time` | Lässt den Countdown laufen (Dauer: 15sec), bis der User eine Antwort ausgewählt hat. |
 | `startTimerLine()` | `time` | Aktualisiert die Progress-Bar des Countdowns. |
 | `queCounter()` | `index` | Aktualisiert die Anzeige des aktuellen Frageindexes. |
@@ -26,6 +25,9 @@ motivierende Aussage je nach Resultat des Users. |
 
 graph TD
 
-markdown1("check()") --> markdown2("summary()")
-
+markdown1{{"Startknopf gedrückt?"}} -- Ja --> markdown2("Zeige die Info Box")
+markdown2 --> markdown3{{"Quiz-Spielen-Knopf gedrückt?"}}
+markdown3 -- Ja --> markdown4("showQuestions(0)")
+markdown4 --> markdown5{{"Antwort ausgewählt?"}}
+markdown5 -- Ja --> markdown6("optionSelected()")
 ```
