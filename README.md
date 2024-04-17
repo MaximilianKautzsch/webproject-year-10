@@ -1,25 +1,8 @@
 # Quiz: Topographie Sachsens
 
-Das vorliegende Projekt ist ein interaktives Geographie-Quiz, das entwickelt wurde, um das Wissen über die Topographie des deutschen Bundeslandes Sachsen zu testen. Die Anwendung ermöglicht es den Benutzern, eine Reihe von Fragen zu beantworten, wobei jede Frage eine begrenzte Zeit hat. Die Benutzer müssen aus einer Auswahl von Antwortmöglichkeiten die richtige Option auswählen. Das Projekt umfasst ein Frontend mit HTML, CSS und JavaScript, das die Benutzeroberfläche für das Quiz bereitstellt, sowie ein Backend, das die Logik für das Zählen der richtigen Antworten und die Auswertung der Ergebnisse enthält.
+[<img src="https://img.shields.io/badge/Autor-Maximilian_Kautzsch-blue">](https://img.shields.io/badge/Autor-Maximilian_Kautzsch-blue?link=https%3A%2F%2Fgithub.com%2FMaximilianKautzsch) <img src="https://img.shields.io/badge/Klasse-10/3-green">
 
-<div align="center">
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Vorname</th>
-      <th>Klasse</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Kautzsch</td>
-      <td>Maximilian</td>
-      <td>10/3</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+Das vorliegende Projekt ist ein interaktives Geographie-Quiz, das entwickelt wurde, um das Wissen über die Topographie des deutschen Bundeslandes Sachsen zu testen. Die Anwendung ermöglicht es den Benutzern, eine Reihe von Fragen zu beantworten, wobei jede Frage eine begrenzte Zeit hat. Die Benutzer müssen aus einer Auswahl von Antwortmöglichkeiten die richtige Option auswählen. Das Projekt umfasst ein Frontend mit HTML, CSS und JavaScript, das die Benutzeroberfläche für das Quiz bereitstellt, sowie ein Backend, das die Logik für das Zählen der richtigen Antworten und die Auswertung der Ergebnisse enthält.
 
 ## Funktionen
 
