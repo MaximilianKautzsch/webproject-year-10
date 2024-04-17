@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
     <title>Geographie Quiz</title>
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- FontAweome CDN Link for Icons -->
+    <!-- Font Awesome CDN Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <!-- start Quiz button -->
+    <!-- Start Quiz Button -->
     <div class="start_btn"><button>Quiz starten</button></div>
+
     <!-- Info Box -->
     <div class="info_box">
+        <!-- Title of the Info Box -->
         <div class="info-title"><span>Spielregeln</span></div>
+        <!-- List of Game Rules -->
         <div class="info-list">
             <div class="info">1. Dieses Quiz testet dein Wissen zur Topographie Sachsens.</div>
             <div class="info">2. Du hast nur 15 Sekunden pro Frage Zeit.</div>
@@ -22,55 +27,72 @@
             <div class="info">4. Du kannst das Quiz nicht verlassen, während du spielst.</div>
             <div class="info">5. Du erhälst Punkte basierend auf deiner Anzahl an richtigen Antworten.</div>
         </div>
+        <!-- Buttons for Quit and Continue -->
         <div class="buttons">
             <button class="quit">Verlassen</button>
             <button class="restart">Fortfahren</button>
         </div>
     </div>
+
     <!-- Quiz Box -->
     <div class="quiz_box">
+        <!-- Header Section -->
         <header>
+            <!-- Title of the Quiz -->
             <div class="title">Sachsen Topographie Quiz</div>
+            <!-- Timer Section -->
             <div class="timer">
                 <div class="time_left_txt">Restzeit</div>
                 <div class="timer_sec">15</div>
             </div>
+            <!-- Time Line for Question Time -->
             <div class="time_line"></div>
         </header>
+        <!-- Question and Options Section -->
         <section>
+            <!-- Question Text -->
             <div class="que_text">
                 <!-- Here I've inserted question from JavaScript -->
             </div>
+            <!-- Option List -->
             <div class="option_list">
                 <!-- Here I've inserted options from JavaScript -->
             </div>
         </section>
-        <!-- footer of Quiz Box -->
+        <!-- Footer Section -->
         <footer>
+            <!-- Total Question Count -->
             <div class="total_que">
                 <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
+            <!-- Next Question Button -->
             <button class="next_btn">Nächste Frage</button>
         </footer>
     </div>
+
     <!-- Result Box -->
     <div class="result_box">
+        <!-- Icon -->
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
+        <!-- Completion Text -->
         <div class="complete_text">Du hast es geschafft!</div>
+        <!-- Score Text -->
         <div class="score_text">
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
+        <!-- Buttons for Restart and Quit -->
         <div class="buttons">
             <button class="restart">Wiederholen</button>
             <button class="quit">Quiz beenden</button>
         </div>
     </div>
-    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+
+    <!-- JavaScript files -->
+    <!-- Questions Data -->
     <script src="js/questions.js"></script>
-    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <!-- Quiz Script -->
     <script src="js/script.js"></script>
 </body>
-</html>
 </html>
