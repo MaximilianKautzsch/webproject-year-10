@@ -1,6 +1,6 @@
 # Quiz: Topographie Sachsens
 
-Das Thema dieser Projektarbeit in Informatik (Klassenstufe 10) ist ein Quiz zur Topographie Sachsens, welches in HTML und CSS (Frontend) sowie Javascript (Backend) entwickelt wurde.
+Das vorliegende Projekt ist ein interaktives Geographie-Quiz, das entwickelt wurde, um das Wissen über die Topographie des deutschen Bundeslandes Sachsen zu testen. Die Anwendung ermöglicht es den Benutzern, eine Reihe von Fragen zu beantworten, wobei jede Frage eine begrenzte Zeit hat. Die Benutzer müssen aus einer Auswahl von Antwortmöglichkeiten die richtige Option auswählen. Das Projekt umfasst ein Frontend mit HTML, CSS und JavaScript, das die Benutzeroberfläche für das Quiz bereitstellt, sowie ein Backend, das die Logik für das Zählen der richtigen Antworten und die Auswertung der Ergebnisse enthält.
 
 | Name     | Vorname    | Klasse |
 | -------- | ---------- | ------ |
@@ -24,6 +24,8 @@ Das Thema dieser Projektarbeit in Informatik (Klassenstufe 10) ist ein Quiz zur 
 | `queCounter(index)`      | `index`: Index der Frage         | Funktion zur Aktualisierung des Fragezählers.                                                                                                                                                                                   |
 
 ## Flowcharts
+
+Die Flussdiagramme (Flowcharts) visualisieren den Hauptalgorithmus, den Ablauf der Funktionen für das Zählen der richtigen Ergebnisse und die Auswertung der Ergebnisse.
 
 ### Hauptalgorithmus
 
