@@ -80,6 +80,8 @@ let userScore = 0; /**< User score */
 let counter; /**< Timer counter */
 let counterLine; /**< Timer line counter */
 let widthValue = 0; /**< Timer line width */
+const restart_quiz = result_box.querySelector(".buttons .restart");
+const quit_quiz = result_box.querySelector(".buttons .quit");
 
 /**
  * @brief Event handler for the restart quiz button click.
