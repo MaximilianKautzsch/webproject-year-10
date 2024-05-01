@@ -1,12 +1,12 @@
 /**
  * @file styles.css
- * @brief CSS file containing styles for the quiz application.
+ * @brief CSS-Datei mit Styles für die Quiz-Anwendung.
  */
 
-/* importing google fonts */
+/* Importieren von Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
-/* Resetting default styles */
+/* Zurücksetzen der Standardstile */
 * {
   margin: 0;
   padding: 0;
@@ -14,18 +14,18 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Body styles */
+/* Stile für den Body */
 body {
   background: #003975;
 }
 
-/* Text selection styles */
+/* Stile für die Textauswahl */
 ::selection {
   color: #fff;
   background: #003975;
 }
 
-/* Container styles for various sections */
+/* Container-Stile für verschiedene Abschnitte */
 .start_btn,
 .info_box,
 .quiz_box,
@@ -37,7 +37,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Active state styles for containers */
+/* Aktive Zustandsstile für Container */
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
 .result_box.activeResult {
@@ -47,7 +47,7 @@ body {
   transform: translate(-50%, -50%) scale(1);
 }
 
-/* Button styles */
+/* Button-Stile */
 .start_btn button {
   font-size: 25px;
   font-weight: 500;
@@ -60,7 +60,7 @@ body {
   cursor: pointer;
 }
 
-/* Info box styles */
+/* Stile für das Infobox */
 .info_box {
   width: 540px;
   background: #fff;
@@ -120,7 +120,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Quiz box styles */
+/* Stile für das Quizfeld */
 .quiz_box {
   width: 550px;
   background: #fff;
@@ -190,7 +190,7 @@ body {
   background: #003975;
 }
 
-/* Question section styles */
+/* Stile für den Abschnitt mit Fragen */
 section {
   padding: 25px 30px 20px 30px;
   background: #fff;
@@ -201,7 +201,7 @@ section .que_text {
   font-weight: 600;
 }
 
-/* Option list styles */
+/* Stile für die Optionsliste */
 section .option_list {
   padding: 20px 0px;
   display: block;
@@ -271,7 +271,7 @@ section .option_list .option .icon {
   border-color: #a42834;
 }
 
-/* Footer styles */
+/* Stile für den Footer */
 footer {
   height: 60px;
   padding: 0 30px;
@@ -324,7 +324,7 @@ footer button.show {
   transform: scale(1);
 }
 
-/* Result box styles */
+/* Stile für das Ergebnisfeld */
 .result_box {
   background: #fff;
   border-radius: 5px;
@@ -401,7 +401,7 @@ footer button.show {
   background: #003975;
 }
 
-/* Question image styles */
+/* Stile für das Fragenbild */
 .que_text img {
   display: block;
   margin-left: auto;

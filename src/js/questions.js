@@ -1,13 +1,13 @@
 /**
  * @file questions.js
- * @brief JavaScript file containing an array of quiz questions.
+ * @brief JavaScript-Datei mit einem Array von Quizfragen.
  */
 
-// Array containing quiz questions, options, and correct answers
+// Array mit Quizfragen, Optionen und richtigen Antworten
 let questions = [
   {
     numb: 1,
-    question: "Welches Gebirge ist gesucht?",
+    question: "Welches Gebirge wird gesucht?",
     answer: "Elbsandsteingebirge",
     options: [
       "Elbsandsteingebirge",
@@ -18,25 +18,25 @@ let questions = [
   },
   {
     numb: 2,
-    question: "Welche Stadt ist gesucht?",
+    question: "Welche Stadt wird gesucht?",
     answer: "Dresden",
     options: ["Freiberg", "Pirna", "Dresden", "Freital"],
   },
   {
     numb: 3,
-    question: "Weche Stadt ist gesucht?",
+    question: "Welche Stadt wird gesucht?",
     answer: "Leipzig",
     options: ["Zwickau", "Torgau", "Leipzig", "Delitzsch"],
   },
   {
     numb: 4,
-    question: "Welcher Fluss ist gesucht?",
+    question: "Welcher Fluss wird gesucht?",
     answer: "Zschopau",
     options: ["Freiberger Mulde", "Zwickauer Mulde", "Flöha", "Zschopau"],
   },
   {
     numb: 5,
-    question: "Welche Stadt ist gesucht?",
+    question: "Welche Stadt wird gesucht?",
     answer: "Glauchau",
     options: ["Zwickau", "Glauchau", "Limbach-Oberfrohna", "Werdau"],
   },
