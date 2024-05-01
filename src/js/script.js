@@ -141,7 +141,7 @@ let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 // Wenn der Benutzer auf eine Option klickt
 function optionSelected(answer) {
   clearInterval(counter); // Zähler zurücksetzen
-  clearInterval(counterLine); // Zähler zurücksetzen
+  clearInterval(counterLine); // Zähler-Linie zurücksetzen
   let userAns = answer.textContent; // Ausgewählte Option des Benutzers abrufen
   let correcAns = questions[que_count].answer; // Richtige Antwort aus dem Array abrufen
   const allOptions = option_list.children.length; // Alle Optionen abrufen

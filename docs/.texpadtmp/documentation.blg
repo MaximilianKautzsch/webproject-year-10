@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.blg'
+[27] biber-darwin:340> INFO - === Wed May  1, 2024, 12:49:32
+[34] Biber.pm:419> INFO - Reading '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bcf'
+[70] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[76] bbl.pm:660> INFO - Writing '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bbl' with encoding 'UTF-8'
+[77] bbl.pm:763> INFO - Output to /Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bbl
+[77] Biber.pm:131> WARN - The file '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bcf' does not contain any citations!
+[77] Biber.pm:133> INFO - WARNINGS: 1
