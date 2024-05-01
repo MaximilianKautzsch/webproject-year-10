@@ -27,61 +27,15 @@ Die Flussdiagramme (Flowcharts) visualisieren den Hauptalgorithmus, den Ablauf d
 
 ### Hauptalgorithmus
 
-```mermaid
-
-%%{init: {'theme':'neutral'}}%%
-
-graph TD
-    A[Start] --> B(Info anzeigen)
-    B --> C{Spieler startet}
-    C -->|Ja| D[Quiz starten]
-    C -->|Nein| B
-    D --> E(Frage anzeigen)
-    E --> F{Antwort auswählen}
-    F -->|Zeit abgelaufen| G(Resultat anzeigen)
-    F -->|Antwort ausgewählt| H{Weiter zur nächsten Frage}
-    H -->|Letzte Frage| G
-    H -->|Weitere Fragen| E
-    G --> I(Ende des Quiz)
-    I --> J[Quiz wiederholen]
-    I --> K[Quiz beenden]
-    J --> B
-    K --> L(Ende)
-```
+![block1](docs/flowcharts/flowchart1.png)
 
 ### Zählen der richtigen Antworten
 
-```mermaid
-
-%%{init: {'theme':'neutral'}}%%
-
-graph TD
-    A[Start] --> B(Initialisieren)
-    B --> C{Frage beantwortet?}
-    C -->|Ja| D(Richtige Antwort?)
-    C -->|Nein| B
-    D -->|Ja| E(Richtiges Ergebnis zählen)
-    D -->|Nein| F(Weiter zur nächsten Frage)
-    E --> F
-    F --> C
-```
+![block2](docs/flowcharts/flowchart2.png)
 
 ### Auswertung der Ergebnisse
 
-```mermaid
-
-%%{init: {'theme':'neutral'}}%%
-
-graph TD
-    A[Start] --> B(Initialisieren)
-    B --> C{Score überprüfen}
-    C -->|Score > 3| D(Gute Nachricht anzeigen)
-    C -->|Score > 1 and Score <= 3| E(Mittlere Nachricht anzeigen)
-    C -->|Score <= 1| F(Schlechte Nachricht anzeigen)
-    D --> G(Ende)
-    E --> G
-    F --> G
-```
+![block3](docs/flowcharts/flowchart3.png)
 
 ## Source Code [optional, delete if unnecessary]
 
@@ -1020,4 +974,21 @@ function queCounter(index) {
   bottom_ques_counter.innerHTML =
     totalQueCounTag; /**< Update question counter */
 }
+```
+
+- @param index - Index of the question.
+  _/
+  function queCounter(index) {
+  let totalQueCounTag =
+  "<span><p>" +
+  index +
+  "</p> von <p>" +
+  questions.length +
+  "</p> Fragen</span>";
+  bottom_ques_counter.innerHTML =
+  totalQueCounTag; /\*\*< Update question counter _/
+  }
+
+```
+
 ```

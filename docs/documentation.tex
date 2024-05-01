@@ -96,7 +96,7 @@
 \pagestyle{fancy}
 \fancyhead[l]{Maximilian Kautzsch}
 \fancyhead[c]{Dokumentation des Quiz-Projekts}
-\fancyhead[r]{\today}
+\fancyhead[r]{18. April 2024}
 \fancyfoot[c]{\thepage}
 \renewcommand{\headrulewidth}{0.2pt}
 \setlength{\headheight}{15pt}
@@ -232,7 +232,7 @@ Aktualisiert den Fragenzähler, um die aktuelle Fragenummer anzuzeigen.
 
 \subsection{Hauptalgorithmus}
 
-In der digitalen Welt, wo Interaktivität und Benutzerfreundlichkeit im Vordergrund stehen, ist die klare Darstellung von Programmabläufen unerlässlich. Ein solches Beispiel ist das Flussdiagramm eines Quiz-Programms, das nicht nur die technische Logik, sondern auch die Benutzererfahrung widerspiegelt. In diesem Text werde ich die Logik dieses Programms anhand des bereitgestellten Flussdiagramms detailliert erläutern.
+In der digitalen Welt, wo Interaktivität und Benutzerfreundlichkeit im Vordergrund stehen, ist die klare Darstellung von Programmabläufen unerlässlich. Ein solches Beispiel ist das Flussdiagramm eines Quiz-Programms, das nicht nur die technische Logik, sondern auch die Benutzererfahrung widerspiegelt. In diesem Text werde ich die Logik dieses Programms anhand des bereitgestellten Flussdiagramms (Abbildung \ref{fig:main-logic}) detailliert erläutern.
 
 Das Programm beginnt mit einem simplen Startpunkt, der als Einladung an den Benutzer dient, sich auf das bevorstehende Quiz einzulassen. Unmittelbar darauf folgt die Anzeige von Informationen, die als eine Art Begrüßungsbildschirm fungieren kann, auf dem die Spielregeln oder interessante Fakten zum Quiz präsentiert werden. Diese Phase ist entscheidend, da sie den ersten Eindruck des Benutzers prägt und das Interesse weckt.
 
@@ -246,7 +246,7 @@ Nach Abschluss des Quiz steht der Spieler vor einer weiteren Entscheidung: Soll 
 
 \subsection{Zählen der richtigen Antworten}
 
-Zu Beginn erfolgt die Initialisierungsphase, in der alle notwendigen Variablen und Zustände für das Quiz festgelegt werden. Diese umfasst beispielsweise das Zurücksetzen des Zählers für die richtigen Antworten und das Abrufen der ausgewählten Option des Users sowie der richtigen Antwort aus dem \texttt{questions[]}-Array.
+Zu Beginn erfolgt die Initialisierungsphase, in der alle notwendigen Variablen und Zustände für das Quiz festgelegt werden. Diese umfasst beispielsweise das Zurücksetzen des Zählers für die richtigen Antworten und das Abrufen der ausgewählten Option des Users sowie der richtigen Antwort aus dem \texttt{questions[]}-Array (Abb. \ref{fig:counting-mechanism}).
 
 Sobald die Initialisierung abgeschlossen ist, stellt das Programm die zentrale Frage: Wurde eine Frage beantwortet? Diese Entscheidungsschleife ist das Herzstück des Programms, da sie bestimmt, wie das Programm auf Benutzereingaben reagiert. Wenn keine Antwort gegeben wurde, kehrt das Programm zur Initialisierungsphase zurück, um auf die nächste Aktion des Benutzers zu warten. Dies gewährleistet, dass das Programm in einem bereiten Zustand bleibt und auf die Interaktion des Benutzers reagieren kann.
 
@@ -256,7 +256,7 @@ Ist die Antwort jedoch falsch, oder wurde der Zähler bereits erhöht, geht das 
 
 \subsection{Auswertung der Ergebnisse}
 
-Zunächst startet die Funktion mit einer Initialisierungsphase, in der das System vorbereitet wird, um die Ergebnisse des Benutzers zu empfangen und zu verarbeiten. Diese Phase beinhaltet das Ausblenden der Info-Box und Quiz-Box sowie das Anzeigen der Ergebnis-Box.
+Zunächst startet die Funktion mit einer Initialisierungsphase, in der das System vorbereitet wird, um die Ergebnisse des Benutzers zu empfangen und zu verarbeiten. Diese Phase beinhaltet das Ausblenden der Info-Box und Quiz-Box sowie das Anzeigen der Ergebnis-Box (Abb. \ref{fig:presenting-results}).
 
 Nach der Initialisierung tritt das Programm in die entscheidende Phase der Score-Überprüfung ein. Hier wird der vom Benutzer erzielte Score mit festgelegten Schwellenwerten verglichen, um die Qualität der Leistung zu bestimmen. Abhängig vom Ergebnis dieses Vergleichs wird eine von drei Nachrichten angezeigt: eine gute, eine mittlere oder eine schlechte Nachricht.
 
@@ -317,5 +317,25 @@ Notiere deine Eindrücke und Feststellungen in maximal drei Stichpunkten:
 
 \section{Appendix}
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.4]{flowcharts/flowchart2.png}
+	\caption{Präzisionsmechanismus zur Auswertung von Quizantworten: Ein systematischer Ansatz zur Erfassung und Bewertung der Benutzerleistung im interaktiven Quizkontext.}
+	\label{fig:counting-mechanism}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.4]{flowcharts/flowchart3.png}
+	\caption{Stufenweise Bewertung und differenziertes Feedback: Ein Flussdiagramm, das den Prozess der Leistungsauswertung und die darauf basierende individuelle Rückmeldung im Bildungskontext visualisiert.}
+	\label{fig:presenting-results}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.4]{flowcharts/flowchart1.png}
+	\caption{Interaktiver Ablauf des Quiz-Programms: Von der Benutzerführung bis zur Ergebnispräsentation – ein Wegweiser durch die digitale Lernerfahrung}
+	\label{fig:main-logic}
+\end{figure}
 
 \end{document}
