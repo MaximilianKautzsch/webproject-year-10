@@ -16,5 +16,55 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{diercke:map}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=94c70539cb2c02585c73048043c3a116}{%
+           family={{Diercke}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{94c70539cb2c02585c73048043c3a116}
+      \strng{fullhash}{94c70539cb2c02585c73048043c3a116}
+      \strng{bibnamehash}{94c70539cb2c02585c73048043c3a116}
+      \strng{authorbibnamehash}{94c70539cb2c02585c73048043c3a116}
+      \strng{authornamehash}{94c70539cb2c02585c73048043c3a116}
+      \strng{authorfullhash}{94c70539cb2c02585c73048043c3a116}
+      \field{labelalpha}{Die}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://media.diercke.net/omeda/88814__Sachsen_physisch.pdf}}
+      \field{note}{Zuletzt abgerufen am 2024-04-18}
+      \field{title}{Sachsen Physisch}
+    \endentry
+    \entry{renaud:feedback}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=65e518edc03fe32d983447f39d216a7f}{%
+           family={Renaud},
+           familyi={R\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{65e518edc03fe32d983447f39d216a7f}
+      \strng{fullhash}{65e518edc03fe32d983447f39d216a7f}
+      \strng{bibnamehash}{65e518edc03fe32d983447f39d216a7f}
+      \strng{authorbibnamehash}{65e518edc03fe32d983447f39d216a7f}
+      \strng{authornamehash}{65e518edc03fe32d983447f39d216a7f}
+      \strng{authorfullhash}{65e518edc03fe32d983447f39d216a7f}
+      \field{labelalpha}{Ren00}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.researchgate.net/profile/Karen-Renaud/publication/220102904_Feedback_in_human-computer_interaction_-_characteristics_and_recommendations/links/0c960533bef7033d7d000000/Feedback-in-human-computer-interaction-characteristics-and-recommendations.pdf}}
+      \field{note}{Zuletzt abgerufen am 2024-04-18}
+      \field{title}{Feedback in Human-Computer Interaction: Characteristics and Recommendations}
+      \field{year}{2000}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

@@ -149,7 +149,7 @@ Zeigt die Fragen und Optionen basierend auf dem angegebenen Index an.
 \end{itemize}
 
 \subsection{\texttt{optionSelected(answer)}}
-Verarbeitet die vom Benutzer ausgewählte Option und aktualisiert das Spiel entsprechend.
+Verarbeitet die vom Benutzer ausgewählte Option und aktualisiert das Spiel entsprechend. Die im Quiz verwendeten Bilder wurden mit Hilfe einer physischen stummen Karte Sachsens erstellt \cite{diercke:map}.
 
 \subsubsection*{Syntax}
 \begin{lstlisting}
@@ -250,9 +250,9 @@ Zu Beginn erfolgt die Initialisierungsphase, in der alle notwendigen Variablen u
 
 Sobald die Initialisierung abgeschlossen ist, stellt das Programm die zentrale Frage: Wurde eine Frage beantwortet? Diese Entscheidungsschleife ist das Herzstück des Programms, da sie bestimmt, wie das Programm auf Benutzereingaben reagiert. Wenn keine Antwort gegeben wurde, kehrt das Programm zur Initialisierungsphase zurück, um auf die nächste Aktion des Benutzers zu warten. Dies gewährleistet, dass das Programm in einem bereiten Zustand bleibt und auf die Interaktion des Benutzers reagieren kann.
 
-Wurde jedoch eine Antwort gegeben, prüft das Programm, ob diese Antwort richtig ist. Diese Überprüfung ist entscheidend, da sie die Genauigkeit des Quiz sicherstellt. Bei einer richtigen Antwort wird der Zähler für die richtigen Ergebnisse erhöht und die Box der korrekten Antwort erhält einen grünen Hintergrund. Dieser Schritt ist ein wesentlicher Bestandteil des Feedback-Mechanismus, der dem Benutzer eine direkte Rückmeldung über seine Leistung gibt.
+Wurde jedoch eine Antwort gegeben, prüft das Programm, ob diese Antwort richtig ist. Diese Überprüfung ist entscheidend, da sie die Genauigkeit des Quiz sicherstellt. Bei einer richtigen Antwort wird der Zähler für die richtigen Ergebnisse erhöht und die Box der korrekten Antwort erhält einen grünen Hintergrund. Dieser Schritt ist ein wesentlicher Bestandteil des Feedback-Mechanismus, der dem Benutzer eine direkte Rückmeldung über seine Leistung gibt \cite{renaud:feedback}.
 
-Ist die Antwort jedoch falsch, oder wurde der Zähler bereits erhöht, geht das Programm weiter zur nächsten Frage. Dieser Übergang ist nahtlos und stellt sicher, dass das Quiz ohne Unterbrechung fortgesetzt wird. Die Schleife, die von der Überprüfung der Antwort zurück zur zentralen Frage führt, ermöglicht es dem Programm, durch das gesamte Quiz zu navigieren, bis alle Fragen beantwortet wurden.
+Ist die Antwort jedoch falsch oder wurde der Zähler bereits erhöht, wird zunächst die richtige Antwort grün markiert und das Programm geht weiter zur nächsten Frage. Dieser Übergang ist nahtlos und stellt sicher, dass das Quiz ohne Unterbrechung fortgesetzt wird. Die Schleife, die von der Überprüfung der Antwort zurück zur zentralen Frage führt, ermöglicht es dem Programm, durch das gesamte Quiz zu navigieren, bis alle Fragen beantwortet wurden.
 
 \subsection{Auswertung der Ergebnisse}
 

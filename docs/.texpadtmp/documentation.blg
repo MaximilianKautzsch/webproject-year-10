@@ -1,9 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.blg'
-[28] biber-darwin:340> INFO - === Wed May  1, 2024, 13:11:43
-[34] Biber.pm:419> INFO - Reading '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bcf'
-[67] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[74] bbl.pm:660> INFO - Writing '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bbl' with encoding 'UTF-8'
-[74] bbl.pm:763> INFO - Output to /Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bbl
-[74] Biber.pm:131> WARN - The file '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bcf' does not contain any citations!
-[74] Biber.pm:133> INFO - WARNINGS: 1
+[31] biber-darwin:340> INFO - === Wed May  1, 2024, 13:24:02
+[39] Biber.pm:419> INFO - Reading '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bcf'
+[72] Biber.pm:979> INFO - Found 2 citekeys in bib section 0
+[79] Biber.pm:4419> INFO - Processing section 0
+[84] Biber.pm:4610> INFO - Looking for bibtex file '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/references.bib' for section 0
+[85] bibtex.pm:1713> INFO - LaTeX decoding ...
+[86] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/references.bib'
+[105] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[105] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[105] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de-DE'
+[105] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[106] bbl.pm:660> INFO - Writing '/Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bbl' with encoding 'UTF-8'
+[106] bbl.pm:763> INFO - Output to /Users/maximiliankautzsch/Documents/B Programmierung/B.2 Repositories/webproject-year-10/docs/.texpadtmp/documentation.bbl
